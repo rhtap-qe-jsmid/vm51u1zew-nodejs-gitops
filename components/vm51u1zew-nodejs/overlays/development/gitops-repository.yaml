@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: vm51u1zew-nodejs-gitops-repository
+spec:
+  url: https://github.com/rhtap-qe-jsmid/vm51u1zew-nodejs-gitops

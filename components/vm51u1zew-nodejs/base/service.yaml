@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: vm51u1zew-nodejs
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: vm51u1zew-nodejs 
+  name: vm51u1zew-nodejs
+spec:
+  ports:
+  - port: 3001 
+    targetPort: 3001 
+  selector:
+    app.kubernetes.io/instance: vm51u1zew-nodejs 
